@@ -18,8 +18,6 @@ All functionality is packed into just **two files** for maximum simplicity and e
 - **PDF Support**: Currently supports PDF document ingestion
 - **Local Processing**: Runs entirely on your machine
 - **Performance Monitoring**: Built-in timers for pipeline performance analysis
-  - Context retrieval time
-  - LLM response time (in seconds)
 - **Flexible LLM Integration**: Easy to swap between different API providers
 - **Minimal Dependencies**: Lightweight setup with essential libraries only
 
@@ -71,11 +69,3 @@ The system includes built-in timing for each pipeline stage:
 - Context retrieval time
 - Query formatting time
 - LLM response time
-
-## Contributing
-
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
